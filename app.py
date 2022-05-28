@@ -19,7 +19,7 @@ import requests
 import pymongo
 import hashlib
 
-# defining user_name
+# defining username
 if 'user_name' not in st.session_state:
     st.session_state['user_name'] = ''
 
