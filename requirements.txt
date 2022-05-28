@@ -9,12 +9,10 @@ scipy==1.8.0
 streamlit==1.9.0
 streamlit_lottie==0.0.3
 streamlit_option_menu==0.3.2
-math
 time
 pickle
 scipy.sparse
 sklearn.neighbors
-pandas.core.reshape.pivot
 sklearn.feature_extraction.text
 sklearn.metrics.pairwise
 requests
