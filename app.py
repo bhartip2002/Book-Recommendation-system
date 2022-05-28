@@ -436,9 +436,8 @@ if tab == "Guess Me":
         if "no_state" not in st.session_state:
             st.session_state.no_state = False
         if slct == "Yup!😁" or st.session_state.yes_state:
-            recommend_age_gender_based(st.session_state.age2, st.session_state.gender2)
             st.write("yahoo🥳")
-            st.write(st.session_state.age2, st.session_state.gender2)
+            recommend_age_gender_based(st.session_state.age2, st.session_state.gender2)
         elif slct == "No" or st.session_state.no_state:
             gender_option = ["Male", "Female"]
             st.session_state.gender2 = st.selectbox("Please enter your gender:", gender_option)
