@@ -10,4 +10,4 @@ streamlit==1.9.0
 streamlit_lottie==0.0.3
 streamlit_option_menu==0.3.2
 scikit-learn
-protobuf==3.19.0
+protobuf~=3.19.0
