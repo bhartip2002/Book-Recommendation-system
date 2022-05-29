@@ -31,6 +31,7 @@ Create a virtual environment
 
 Activate the virtual environment
 ```bash
+  env\Scripts\activate
   ```
 Install all the dependencies
 ```bash
