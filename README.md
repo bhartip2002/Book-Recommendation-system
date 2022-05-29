@@ -34,7 +34,7 @@ Create a virtual environment
 
 Activate the virtual environment
 ```bash
-  env\Scripts\activate
+  env\Scripts\activate.bat
   ```
 Install all the dependencies
 ```bash
